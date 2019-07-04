@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Movies API</title>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            background-color: linen;
+            font-family: 'Luckiest Guy', cursive;
+            padding-top: 80px;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        .search{
+            position: absolute;
+            top: 27%;
+            left: 30%;
+            transform: translate(-50%,-50%);
+            border: none;
+            
+        }
+        input{
+            position: absolute;
+            display: grid;
+            font-size: 20px;
+            box-sizing:border-box
+            border: none;
+
+        }
+        input[type="text"]
+        {
+            width: 520px;
+            height: 50px;
+            padding: 0 25px;
+            border-radius: 25px 25px 25px 25px;
+            border: none;
+        }
+         input[type="submit"]
+        {
+            width: 100px;
+            height: 50px;
+            margin: 20px;
+            padding: 0 20px;
+            margin: 20px 20px 20px 20px;
+            border-radius: 0 25px 25px 0;
+            background-color: green;
+            border: none;
+        }
+         input[type="reset"]
+        {
+            width: 100px;
+            height: 50px;
+            margin: 20px 20px 20px 400px;
+            padding: 0 20px;
+            border-radius: 25px 0 0 25px;
+            background-color: red;
+            border: none;
+        }
+    
+    </style>
+    </head>
+    <body>
+        <h1>Movie Search Engine</h1>
+        <div class="search">
+            <form>
+            <input type="text" placeholder="Search...">
+            <br><br>
+            <input type="submit" name="Search">
+            <input type="reset" name="Clear">
+            </form>
+        </div>
+    
+    </body>
+</html>
